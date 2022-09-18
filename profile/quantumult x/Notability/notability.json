@@ -1,0 +1,21 @@
+{
+  "data" : {
+    "processAppleReceipt" : {
+      "error" : 0,
+      "subscription" : {
+        "status" : "active",
+        "expirationDate" : "2999-09-28T09:09:09.000Z",
+        "originalTransactionId" : "100109876543210",
+        "productId" : "com.yqc.premium_subscription",
+        "originalPurchaseDate" : "2020-09-28T09:09:09.000Z",
+        "refundedDate" : null,
+        "user" : null,
+        "tier" : "premium",
+        "__typename" : "AppStoreSubscription",
+        "refundedReason" : null
+      },
+      "__typename" : "SubscriptionResult"
+    }
+  }
+}
+

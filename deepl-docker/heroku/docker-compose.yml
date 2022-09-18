@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  web:
+    build:
+      context: .
+    container_name: deeplx
+    image: deeplx
+    environment:
+      PORT: ${PORT:-8000}
+    ports:
+      - ${PORT:-8000}:${PORT:-8000}
